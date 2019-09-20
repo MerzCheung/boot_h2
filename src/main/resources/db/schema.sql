@@ -5,4 +5,4 @@ CREATE TABLE `user` (
   `age` int(2) default NULL COMMENT '年龄',
   PRIMARY KEY (`id`),
   UNIQUE KEY `uniq_user_id` (`id`)
-);
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
